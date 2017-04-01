@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pgDb": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "meeting_man",
+    "password": "",
+    "name": "pgDb",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
