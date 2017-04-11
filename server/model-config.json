@@ -32,11 +32,11 @@
     "dataSource": "db",
     "public": false
   },
-  "meeting": {
+  "Meeting": {
     "dataSource": "pgDb",
     "public": true
   },
-  "Meeting": {
+  "Participant": {
     "dataSource": "pgDb",
     "public": true
   }
