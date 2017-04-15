@@ -14,22 +14,22 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "pgDb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "pgDb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "pgDb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "pgDb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "pgDb",
     "public": false
   },
   "Meeting": {
