@@ -11,7 +11,7 @@
     "meetings": {
       "type": "hasAndBelongsToMany",
       "model": "Meeting",
-      "foreignKey": ""
+      "foreignKey": "meetingIds"
     }
   },
   "acls": [],

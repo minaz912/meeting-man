@@ -18,7 +18,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "participants": {
+      "type": "hasAndBelongsToMany",
+      "model": "Participant",
+      "foreignKey": "participantIds"
+    }
+  },
   "acls": [],
   "methods": {}
 }
